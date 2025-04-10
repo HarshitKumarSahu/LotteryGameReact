@@ -1,9 +1,12 @@
 import "./App.css";
-
+import Lottery from "./components/Lottery";
+import Ticket from "./components/Ticket";
 
 function App() {
   return (
-    <h1>Hello World!</h1>
+    <>
+      <Lottery n={3} winningSum = {15} />
+    </>
   )
 }
 
